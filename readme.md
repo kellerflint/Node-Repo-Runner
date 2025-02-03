@@ -1,12 +1,15 @@
-# Node Repo Processor
+# Node Repo Runner
 
-A simple script to clone and install dependencies for submissions from a folder of HTML files with a meta refresh or anchor tag to a GitHub repository (which is how Canvas downloads link submissions).
+1. A script to clone and install dependencies for submissions from a folder of HTML files with a meta refresh or anchor tag to a GitHub repository (which is how Canvas downloads link submissions).
+2. A script to easily run the projects in the cloned repositories.
 
 # Setup
 
 Clone the repository
 
 ```bash
+
+
 
 git clone <repository-url>
 ```
