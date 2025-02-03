@@ -17,7 +17,7 @@ Install dependencies
 npm install
 ```
 
-# Usage
+# Repository Cloning & Dependency Installation
 
 Run the script
 
@@ -38,3 +38,15 @@ Any errors will be logged to the console.
 ```bash
 node process_repos.js C:\Users\username\Downloads\submissions
 ```
+# Running Projects
+
+```bash
+node run_projects.js C:\Users\username\Downloads\submissions
+```
+
+Terminal controls:
+
+- [Enter] - Start/Stop the current project
+- n - Skip to next project
+- p - Go to previous project
+- q - Quit
