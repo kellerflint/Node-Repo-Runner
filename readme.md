@@ -1,0 +1,40 @@
+# Node Repo Processor
+
+A simple script to clone and install dependencies for submissions from a folder of HTML files with a meta refresh or anchor tag to a GitHub repository (which is how Canvas downloads link submissions).
+
+# Setup
+
+Clone the repository
+
+```bash
+
+git clone <repository-url>
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+# Usage
+
+Run the script
+
+```bash
+node process_repos.js <submissions-folder-path>
+```
+
+This will process all the submissions in the specified submissions folder and clone the repositories, install the dependencies, and run the tests. 
+
+Outputs will be placed in a new cloned_repos folder in the submissions directory.
+
+If no path is provided, it will use the current directory.
+
+Any errors will be logged to the console.
+
+# Example
+
+```bash
+node process_repos.js C:\Users\username\Downloads\submissions
+```
