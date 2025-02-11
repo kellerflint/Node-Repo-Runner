@@ -20,6 +20,8 @@ Install dependencies
 npm install
 ```
 
+Download submissions (website urls of GitHub repos) from Canvas and extract them.  
+
 # Repository Cloning & Dependency Installation
 
 Run the script
